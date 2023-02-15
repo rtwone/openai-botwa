@@ -13,6 +13,6 @@ Chatbot OpenAI yang dibuat oleh Irfan Hariyanto
 
 #### Notes
 
-- Apikey OpenAI ambil di [`openai.com`](https://platform.openai.com/account/api-keys)
+- Mau ambil apikey OpenAI? [`Tap disini`](https://platform.openai.com/account/api-keys)
 - Ganti Apikey OpenAI kamu di [`config.json`](config.json)
 - Ganti nomer Owner di [`config.json`](config.json)
