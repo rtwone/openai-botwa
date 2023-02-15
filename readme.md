@@ -2,6 +2,9 @@
 
 Chatbot OpenAI yang dibuat oleh Irfan Hariyanto
 
+## Preview
+<a href="https://ibb.co/HCwm5ff"><img src="https://i.ibb.co/8bvF1LL/Screenshot-20230212-042336.png" alt="Screenshot-20230212-042336" border="0"></a>
+
 ### Thanks To
 
 - [`Telegraf`](https://github.com/adiwajshing)
