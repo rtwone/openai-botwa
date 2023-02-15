@@ -19,7 +19,7 @@ moment.tz.setDefault("Asia/Jakarta").locale("id");
 
 module.exports = async (conn, msg, m, openai) => {
   try {
-	if (msg.key.fromMe) return
+    if (msg.key.fromMe) return
     const { type, isQuotedMsg, quotedMsg, mentioned, now, fromMe } = msg;
     const toJSON = (j) => JSON.stringify(j, null, "\t");
     const from = msg.key.remoteJid;
@@ -86,7 +86,7 @@ bot dibatasi menjawab maximal ${MAX_TOKEN} kata
 *Bot Created By @irfann._x*`
       var buttonReply = [
 				{ urlButton: { displayText: `Owner 💌`, url : `https://instagram.com/irfann._x` } },
-				{ urlButton: { displayText: `Source Code 🔗`, url: `https://github.com/rtwone/OpenAi-BotWa` } },
+				{ urlButton: { displayText: `Source Code 🔗`, url: `https://github.com/rtwone/openai-botwa` } },
 				{ urlButton: { displayText: `Share This Bot ❤️`, url: `https://api.whatsapp.com/send?`+new URLSearchParams({ text: textShare }) } }
 			]
 			tempButton(from, textReply, '', buttonReply)
