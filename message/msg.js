@@ -77,13 +77,14 @@ Kirim pertanyaan kamu di bot ini, nanti dijawab sama bot ini.
 
 https://wa.me/${botNumber.split("@")[0]}?text=/start`
       var textReply = `Hai 👋
+
 Saya adalah Robot OpenAI yang diciptakan untuk menjawab pertanyaan Anda. Silahkan kirim satu pertanyaan, nanti saya akan menjawabnya.
 
 _AI (Artificial Intelligence) adalah teknologi yang menggunakan algoritma kompleks untuk membuat mesin yang dapat berpikir dan bertindak seperti manusia. AI dapat digunakan untuk menyelesaikan masalah yang rumit dan membuat keputusan yang lebih tepat daripada manusia. AI juga dapat digunakan untuk menganalisis data dan mengambil keputusan berdasarkan data tersebut. AI juga dapat digunakan untuk meningkatkan produktivitas dan efisiensi, serta membantu manusia dalam menyelesaikan tugas-tugas yang rumit._
 
-bot dibatasi menjawab maximal ${MAX_TOKEN} kata
+_bot dibatasi menjawab maximal ${MAX_TOKEN} kata_
 
-*Bot Created By @irfann._x*`
+*Created By @irfann._x*`
       var buttonReply = [
 				{ urlButton: { displayText: `Owner 💌`, url : `https://instagram.com/irfann._x` } },
 				{ urlButton: { displayText: `Source Code 🔗`, url: `https://github.com/rtwone/openai-botwa` } },
