@@ -14,6 +14,7 @@ const util = require("util");
 const { exec, spawn } = require("child_process");
 let setting;
 const { ownerNumber, MAX_TOKEN, OPENAI_KEY } = setting = require('../config.json');
+const speed = require("performance-now");
 
 moment.tz.setDefault("Asia/Jakarta").locale("id");
 
@@ -92,6 +93,14 @@ _bot dibatasi menjawab maximal ${MAX_TOKEN} kata_
 			]
 			tempButton(from, textReply, '', buttonReply)
 			break
+		case '/runtime':
+                        reply(require('../lib/myfunc').runtime(process.uptime()))
+                        break
+                case '/ping':
+                        var timestamp = speed();
+                        var latensi = speed() - timestamp
+                        reply(`*Pong!!*\nSpeed: ${latensi.toFixed(4)}s`)
+                        break
 		case '=>':
 			if (!isOwner) return reply(`Perintah ini hanya dapat digunakan oleh Owner Bot`)
 			try {
