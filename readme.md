@@ -11,7 +11,7 @@ Chatbot OpenAI yang dibuat oleh Irfan Hariyanto
 - [`OpenAI`](https://openai.com)
 - [`Caliph`](https://github.com/caliphdev)
 
-#### Notes
+### Notes
 
 - Mau ambil apikey OpenAI? [`Tap disini`](https://platform.openai.com/account/api-keys)
 - Ganti Apikey OpenAI kamu di [`config.json`](config.json)
