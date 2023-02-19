@@ -3,7 +3,7 @@
 Chatbot OpenAI yang dibuat oleh Irfan Hariyanto
 
 ## Preview
-<img src="https://i.ibb.co/8bvF1LL/Screenshot-20230212-042336.png" alt="Screenshot-20230212-042336" border="0">
+<a href="//wa.me/35795545556" ><img width="100%" src="https://i.ibb.co/8bvF1LL/Screenshot-20230212-042336.png" /></a>
 
 ### Thanks To
 
