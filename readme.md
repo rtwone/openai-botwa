@@ -17,4 +17,4 @@ Chatbot OpenAI yang dibuat oleh Irfan Hariyanto
 - Ganti Apikey OpenAI kamu di [`config.json`](config.json)
 - Ganti nomer Owner di [`config.json`](config.json)
 
-Ingin membuat Bot WhatsApp mu sendiri? atau Bot WhatsApp usahamu? seperti Bot Laundry atau Bot Jualan produkmu, kamu bisa hubungi saya di [`wa.me/6285175222272`](`wa.me/6285175222272`)
+Ingin membuat Bot WhatsApp mu sendiri? atau Bot WhatsApp usahamu? seperti Bot Laundry atau Bot Jualan produkmu, kamu bisa hubungi saya di [`+62 851-7522-2272`](https://wa.me/6285175222272)
